@@ -184,3 +184,11 @@ app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })
 ```
+
+
+## Other resources:
+- https://clerk.com/docs/backend-requests/handling/nodejs (shows both ClerkExpressWithAuth() which will decorate the request with auth info, but doesn't protect and `ClerkExpressRequireAuth()`  which will check auth status and protect.)
+- https://clerk.com/docs/backend-requests/making/cross-origin
+  
+- 
+
