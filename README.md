@@ -57,12 +57,18 @@ app.listen(port, () => {
 
 If you call this in Postman you’ll get a 401 and this message:
 <img width="630" alt="image" src="https://github.com/savmaya/manual-jwt-clerk/assets/100170212/f3444c6f-d275-46ff-bf77-17c800bbc328">
+
 This is safer as we aren’t even sharing the structure of our auth object.
 
 Let's run this: 
 ```node server.js```
 You should now see that message from in your app.listen(…) terminal:
 ```Example app listening at http://localhost:3000```
+
+Let's run this: 
+```node app2.js```
+You should now see that message from in your app.listen(…) terminal:
+```Example app listening at http://localhost:3001```
 
 Let’s call that endpoint (http://localhost:3000/protected-endpoint) from Postman to see what it returns:
 ```{
