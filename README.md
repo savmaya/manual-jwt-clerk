@@ -1,6 +1,8 @@
 # manual-jwt-clerk
 In this tutorial, we'll explore how to use Clerk with Express to authenticate multiple API requests using middleware.
 
+https://www.loom.com/share/3882d2dcb1514874a66a58f97ab05be7?sid=dd071f95-c9ae-4652-95e5-7c08c9eac640
+
 ```mkdir server && cd server```
 
 ```npm install express cors dotenv @clerk/clerk-sdk-node ```
